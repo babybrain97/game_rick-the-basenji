@@ -1,1 +1,0 @@
-# rick-the-basenji

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick The Basenji</title>
+    <link rel="shortcut icon" type="image/jpg" href="./gameArt/bone.png"/>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+<body>
+    <section class="numbers">
+        <div class="bones">
+            <img src="./gameArt/bone.png" alt="bone-icon">
+            <p id="points">0</p>
+        </div>
+        <div class="hearts">
+            <img src="./gameArt/heart-smol.png" alt="heart-icon">
+            <p id="lives">3</p>
+        </div>
+    </section>
+    <section id="game">
+        <canvas id="canvas" class="game-canvas"></canvas>
+        <div class="intro">
+            <div class="intro-wrapper">
+                <button type="button" class="start"> start game </button>
+            </div>
+        </div>
+        <div class="outro">
+            <div class="score-wrapper">
+                <div class="score-table">
+                    <p id="score">SCORE: </p>
+                    <p id="highscore">HIGH SCORE: </p>
+                </div>
+                <button type="button" class="restart"> restart </button>
+            </div>
+                
+        </div>
+    </section>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
